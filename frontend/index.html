@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Speed Visualization</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.plot.ly/plotly-2.29.1.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🌍 Network Speed Monitor</h1>
+        
+        <div class="controls">
+            <button id="runTest" class="primary-button">Run Speed Test</button>
+        </div>
+
+        <div class="stats-container">
+            <div class="stat-box">
+                <h3>Average Download</h3>
+                <p id="avgDownload">-</p>
+            </div>
+            <div class="stat-box">
+                <h3>Average Upload</h3>
+                <p id="avgUpload">-</p>
+            </div>
+            <div class="stat-box">
+                <h3>Average Ping</h3>
+                <p id="avgPing">-</p>
+            </div>
+            <div class="stat-box">
+                <h3>Total Tests</h3>
+                <p id="totalTests">-</p>
+            </div>
+        </div>
+
+        <div id="plot" class="plot-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
