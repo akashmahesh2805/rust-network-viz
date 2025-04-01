@@ -26,7 +26,7 @@ The backend (written in Rust) handles the speed tests and data storage, while th
 ## 📊 Features
 
 - Real-time speed testing
-- Beautiful line graphs showing download and upload speeds over time
+- Line graphs showing download and upload speeds over time
 - Average speed calculations
 - Total number of tests performed
 - Automatic data persistence
